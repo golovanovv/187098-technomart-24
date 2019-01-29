@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+  <head>
 	<meta charset="UTF-8">
 	<title>Каталог</title>
-</head>
-<body>
-	<header class="main-header">
+  </head>
+  <body>
+		<header class="main-header">
 			<div class="header-top">
-				<a class="company-logo">
-					<img src="logo.png" alt="Логотип">
+				<a class="company-logo" href="index.html">
+					<img src="logo.png" alt="Логотип" width="100" height="20">
 				</a>
-				<!-- Здесь будет поле "Поиск" -->
-				<ul class="user-navigation">
-					<li><a href="#">Закладки</a></li>
-					<li><a href="#">Корзина</a></li>
-				</ul>
-				<a class="checkout" href="#">Оформить заказ</a>
+				<div class="header-tools">
+					<!-- Здесь будет форма поиска -->
+					<a href="#">Закладки</a>
+					<a href="#">Корзина</a>
+					<a href="#">Оформить заказ</a>
+				</div>
 			</div>
 			<div class="header-middle">
-				<h1 class="main-title">
+				<p class="main-title">
 					Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта
-				</h1>
-				<p class="header-contacts">
-					+7 (812) 555-05-55<br>
-					г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
 				</p>
-				<a href="#">Равшан Джамшутович</a>
-				<a href="#">Мои заказы</a>
-				<a href="#">Личный кабинет</a>
+				<div class="header-contacts">
+					<a href="tel:+78125550555">+7 (812) 555-05-55</a>
+					<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+				</div>
+				<div class="user-block">
+					<a href="#">Равшан Джамшутович</a>
+					<a href="#">Мои заказы</a>
+					<a href="#">Личный кабинет</a>
+				</div>
 			</div>
 			<nav class="mine-navigation">
 				<ul class="site-navigation">
-					<li><a href="#">Главная</a></li>
+					<li><a href="index.html">Главная</a></li>
 					<li><a href="#">Компания</a></li>
-					<li><a href="#">Каталог</a></li>
+					<li><a href="">Каталог</a></li>
 					<li><a href="#">Новости</a></li>
 					<li><a href="#">Спецпредложения</a></li>
 					<li><a href="#">Доставка</a></li>
@@ -46,7 +48,7 @@
 				<li><a href="index.html">Главная</a></li>
 				<li><a href="#">Каталог</a></li>
 				<li><a href="#">Инструмент</a></li>
-				<li>Перфораторы</li>
+				<li><a href="">Перфораторы</a></li>
 			</ul>
 			<h1 class="page-title">ПЕРФОРАТОРЫ</h1>
 			<!-- В соответствии с заданием блоки "Фильтр" и "Сортировка" пока не размечаем -->
@@ -65,14 +67,15 @@
 			</ul>
 			<button type="submit">Показать</button>
 			<section class="catalog">
+				<h2>Каталог</h2>
 				<ul class="catalog-list">
 					<li class="catalog-item">
 						<a href="#">
-							<h2>Перфоратор BOSCH<br>
-							BFG 3000</h2>
+							<h3>Перфоратор BOSCH<br>
+							BFG 3000</h3>
 						</a>
 						<a href="#">
-							<img src="bosch-bfg-3000.png" alt="bosch-bfg-3000.png">
+							<img src="bosch-bfg-3000.png" alt="bosch-bfg-3000.png" width="100" height="100">
 						</a>
 							<p class="price-before">22500 Р.</p>
 						<a href="#">
@@ -81,11 +84,11 @@
 					</li>
 					<li class="catalog-item">
 						<a href="#">
-							<h2>Перфоратор BOSCH<br>
-							BFG 6000</h2>
+							<h3>Перфоратор BOSCH<br>
+							BFG 6000</h3>
 						</a>
 						<a href="#">
-							<img src="bosch-bfg-6000.png" alt="bosch-bfg-6000.png">
+							<img src="bosch-bfg-6000.png" alt="bosch-bfg-6000.png" width="100" height="100">
 						</a>
 							<p class="price-before">30500 Р.</p>
 						<a href="#">
@@ -94,11 +97,11 @@
 					</li>
 					<li class="catalog-item selected">
 						<a href="#">
-							<h2>Перфоратор BOSCH<br>
-							BFG 2000</h2>
+							<h3>Перфоратор BOSCH<br>
+							BFG 2000</h3>
 						</a>
 						<a href="#">
-							<img src="bosch-bfg-2000.png" alt="bosch-bfg-2000.png">
+							<img src="bosch-bfg-2000.png" alt="bosch-bfg-2000.png" width="100" height="100">
 						</a>
 							<span>NEW</span>
 							<button>Купить</button>
@@ -109,11 +112,11 @@
 					</li>
 					<li class="catalog-item">
 						<a href="#">
-							<h2>Перфоратор BOSCH<br>
-							BFG 3000</h2>
+							<h3>Перфоратор BOSCH<br>
+							BFG 3000</h3>
 						</a>
 						<a href="#">
-							<img src="bosch-bfg-3000.png" alt="bosch-bfg-3000.png">
+							<img src="bosch-bfg-3000.png" alt="bosch-bfg-3000.png" width="100" height="100">
 						</a>
 							<p class="price-before">22500 Р.</p>
 						<a href="#">
@@ -122,11 +125,11 @@
 					</li>	
 					<li class="catalog-item">
 						<a href="#">
-							<h2>Перфоратор BOSCH<br>
-							BFG 6000</h2>
+							<h3>Перфоратор BOSCH<br>
+							BFG 6000</h3>
 						</a>
 						<a href="#">
-							<img src="bosch-bfg-6000.png" alt="bosch-bfg-6000.png">
+							<img src="bosch-bfg-6000.png" alt="bosch-bfg-6000.png" width="100" height="100">
 						</a>
 							<span>NEW</span>							
 							<p class="price-before">30500 Р.</p>
@@ -136,22 +139,22 @@
 					</li>
 					<li class="catalog-item">
 						<a href="#">
-							<h2>Перфоратор BOSCH<br>
-							BFG 2000</h2>
+							<h3>Перфоратор BOSCH<br>
+							BFG 2000</h3>
 						</a>
 						<a href="#">
-							<img src="bosch-bfg-2000.png" alt="bosch-bfg-2000.png">
+							<img src="bosch-bfg-2000.png" alt="bosch-bfg-2000.png" width="100" height="100">
 						</a>
 						<a href="#">
 							<p class="price-after">12500 Р.</p>
 						</a>
 					</li>												<li class="catalog-item">
 						<a href="#">
-							<h2>Перфоратор BOSCH<br>
-							BFG 3000</h2>
+							<h3>Перфоратор BOSCH<br>
+							BFG 3000</h3>
 						</a>
 						<a href="#">
-							<img src="bosch-bfg-3000.png" alt="bosch-bfg-3000.png">
+							<img src="bosch-bfg-3000.png" alt="bosch-bfg-3000.png" width="100" height="100">
 						</a>
 							<span>NEW</span>
 							<p class="price-before">22500 Р.</p>
@@ -161,11 +164,11 @@
 					</li>
 					<li class="catalog-item">
 						<a href="#">
-							<h2>Перфоратор BOSCH<br>
-							BFG 6000</h2>
+							<h3>Перфоратор BOSCH<br>
+							BFG 6000</h3>
 						</a>
 						<a href="#">
-							<img src="bosch-bfg-6000.png" alt="bosch-bfg-6000.png">
+							<img src="bosch-bfg-6000.png" alt="bosch-bfg-6000.png" width="100" height="100">
 						</a>
 							<p class="price-before">30500 Р.</p>
 						<a href="#">
@@ -174,11 +177,11 @@
 					</li>	
 					<li class="catalog-item">
 						<a href="#">
-							<h2>Перфоратор BOSCH<br>
-							BFG 2000</h2>
+							<h3>Перфоратор BOSCH<br>
+							BFG 2000</h3>
 						</a>
 						<a href="#">
-							<img src="bosch-bfg-2000.png" alt="bosch-bfg-2000.png">
+							<img src="bosch-bfg-2000.png" alt="bosch-bfg-2000.png" width="100" height="100">
 						</a>
 						<a href="#">
 							<p class="price-after">12500 Р.</p>
@@ -235,5 +238,5 @@
 				</p>
 			</div>
 		</footer>		
-</body>
+  </body>
 </html>
