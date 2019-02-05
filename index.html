@@ -20,7 +20,10 @@
 					</svg>
 				</a>
 				<div class="header-tools">
-					<!-- Здесь будет форма поиска -->
+					<form action="https://echo.htmlacademy.ru" class="search" method="get">
+						<input type="text" name="search" id="search-field" value="" placeholder="Поиск:">
+						<label for="search-field" class="visually-hidden">Поиск по сайту</label>
+					</form>
 					<a href="#">Закладки: <span>10</span></a>
 					<a href="#">Корзина: <span>10</span></a>
 					<a href="#">Оформить заказ</a>
@@ -71,6 +74,22 @@
 					<img src="img/map.jpg" alt="Местонахождение компании на карте" width="300" height="158">
 				</a>
 				<a href="#">Заблудились? Напишите нам!</a>
+			</section>
+			<section class="modal modal-map">
+				<h2 class="visually-hidden">Увеличенная карта</h2>
+				<img src="img/map-zoom.jpg" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург" width="940" height="447">
+				<button class="modal-close" type="button">Закрыть</button>
+			</section>
+			<section class="modal modal-feedback">
+				<form action="https://echo.htmlacademy.ru" class="feedback" method="post">
+					<label for="user-name-field">Ваше имя:</label>
+					<input type="text" id="user-name-field" name="user-name" value="" placeholder="Имя Фамилия">
+					<label for="user-email-field">Ваш e-mail:</label>
+					<input type="email" id="user-email-field" name="user-email" value="" placeholder="email@example.com">
+					<label for="user-text-field">Текст письма:</label>
+					<input type="text" id="user-text-field" name="user-text" value="" placeholder="В свободной форме">
+					<button class="button" type="submit">Отправить</button>
+				</form>
 			</section>
 		</main>
 		<footer class="main-footer">
