@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 17px;
+	line-height: 24px;
+	background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-header {
+	background-color: rgb(243, 247, 248);
+}
+
+.header-top {
+	background-color: rgb(41, 52, 73);
+	color: #ffffff;
+	font-size: 17px;
+	line-height: 18px;
+}
+
+.company-logo svg {
+	background-color: rgb(238, 54, 67);
+	border-bottom: 5px solid rgb(181, 41, 51);
+}
+
+.header-top a {
+	color: #ffffff;
+}
+
+.checkout-button {
+	background-color: rgb(99, 166, 62);
+}
+
+.main-title {
+	font-size: 16px;
+	line-height: 23px;
+	color: rgb(238, 54, 67);
+	font-style: italic;
+}
+
+.header-contacts a {
+	color: rgb(238, 54, 67);
+	font-size: 21px;
+	line-height: 21px;
+}
