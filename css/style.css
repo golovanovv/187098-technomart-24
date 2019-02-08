@@ -442,3 +442,12 @@ a.checkout-button-header:active {
 	opacity: 0.5;
 	text-decoration: none;
 }
+
+.footer-adress:hover {
+	text-decoration: underline;
+}
+
+.footer-adress:active {
+	color: #ee3643;
+	text-decoration: none;
+}
