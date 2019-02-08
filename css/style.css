@@ -1,3 +1,5 @@
+/*Общие стили*/
+
 body {
 	margin: 0;
 	padding: 0;
@@ -29,6 +31,16 @@ ul {
 .company-logo svg {
 	background-color: rgb(238, 54, 67);
 	border-bottom: 5px solid rgb(181, 41, 51);
+}
+
+.search input {
+	background-color: rgb(41, 52, 73);
+	color: #ffffff;
+	border: none;
+}
+
+.search input::-webkit-input-placeholder {
+	color: #ffffff;
 }
 
 .header-top a {
@@ -69,6 +81,9 @@ ul {
 
 .main-navigation {
 	background-color: rgb(50, 66, 92);
+}
+
+.site-navigation li {
 	border-bottom: 5px solid rgb(41, 52, 73);
 }
 
@@ -78,10 +93,11 @@ ul {
 	line-height: 17px;
 }
 
+/*Главная страница*/
+
 .about-company h2 {
 	text-transform: uppercase;
 }
-
 
 .main-info-button {
 	color: #ffffff;
@@ -94,7 +110,6 @@ ul {
 .contacts h2 {
 	text-transform: uppercase;
 }
-
 
 .modal-map img {
   background-color: rgb(86, 86, 86);
@@ -180,6 +195,13 @@ ul {
 	text-decoration: underline;
 }
 
+.user-name-button {
+	color: #000000;
+	font-size: 21px;
+	line-height: 21px;
+	background-color: #ffffff;
+}
+
 .breadcrumbs a {
 	color: #000000;
 	text-transform: uppercase;
@@ -230,18 +252,18 @@ ul {
 .catalog .actions {
 	font-family: "Cuprum", Arial, sans-serif;
 	text-transform: uppercase;
+	display: none;
 }
 
 .actions .buy {
 	color: #ffffff;
-	background-color: rgb(99, 166, 62);
-	border: 3px solid rgb(99, 166, 62);
-	border-bottom: 3px solid rgb(54, 115, 21);
+	box-shadow: inset 0px -3px 0 0 #367315;
+  	background-color: #63a63e;
 }
 
 .actions .bookmark {
 	color: rgb(50, 66, 92);
-	border: 3px solid rgb(99, 166, 62);
+	border: 3px solid #63a63e;
 }
 
 .product-name a {
@@ -289,4 +311,119 @@ ul {
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
+}
+
+/*Модальные окна*/
+
+.modal {
+	display: none;
+}
+
+/*Эффекты при наведении и фокусе*/
+
+.company-logo svg:hover {
+	background-color: rgb(202, 44, 55);
+	border-bottom: 5px solid rgb(154, 33, 42);
+}
+
+.company-logo svg:active {
+	background-color: rgb(186, 39, 50);
+	border-bottom: 5px solid rgb(142, 30, 38);
+}
+
+.header-tools:hover,
+.header-tools input:hover {
+	background-color: rgb(33, 42, 58);
+}
+
+.header-tools a:active {
+	background-color: rgb(22, 29, 41);
+	color: rgb(153, 156, 161);
+}
+
+a.checkout-button-header:hover {
+	background-color: rgb(95, 187, 45);
+}
+
+a.checkout-button-header:active {
+	background-color: rgb(81, 133, 52);
+	color: rgb(162, 190, 147);
+}
+
+.header-tools input:focus {
+	background-color: #ffffff;
+	outline: none;.
+	border: none;
+}
+
+.personal-interface-button:hover {
+	color: rgb(238, 54, 67);
+}
+
+.personal-interface-button:active {
+	color: rgb(178, 178, 178);
+}
+
+.working-interface a:hover {
+	color: rgb(238, 54, 67);
+}
+
+.user-name-button:active {
+	color: rgb(178, 178, 178);
+}
+
+.working-interface a:active {
+	color: rgb(178, 178, 178);
+}
+
+.site-navigation li:hover {
+	background-color: rgb(41, 52, 73);
+}
+
+.site-navigation li:active {
+	background-color: rgb(29, 39, 57);
+	border-bottom-color: rgb(29, 39, 57);
+}
+
+.site-navigation a:active {
+	color: rgb(142, 147, 156);
+}
+
+.catalog-item:hover {
+	box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.catalog-item:hover .actions {
+	display: block;
+}
+
+.catalog-item:hover .catalog-item-image {
+	display: none;
+}
+
+.buy:hover {
+	background-color: rgb(95, 187, 45);
+}
+
+.buy:active {
+	background-color: #518534;
+}
+
+.bookmark:hover {
+	border: 3px solid #32425c;
+}
+
+.bookmark:active {
+	opacity: 0.3;
+}
+
+.footer-site-navigation a:hover,
+.footer-services-navigation a:hover {
+	text-decoration: underline;
+}
+
+.footer-site-navigation a:active,
+.footer-services-navigation a:active {
+	opacity: 0.5;
+	text-decoration: none;
 }
