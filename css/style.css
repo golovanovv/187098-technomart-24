@@ -18,23 +18,23 @@ ul {
 }
 
 .main-header {
-	background-color: rgb(243, 247, 248);
+	background-color: #f4f7f9;
 }
 
 .header-top {
-	background-color: rgb(41, 52, 73);
+	background-color: #293449;
 	color: #ffffff;
 	font-size: 17px;
 	line-height: 18px;
 }
 
 .company-logo svg {
-	background-color: rgb(238, 54, 67);
+	background-color: #ee3643;
 	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
 }
 
 .search input {
-	background-color: rgb(41, 52, 73);
+	background-color: #293449;
 	color: #ffffff;
 	border: none;
 }
@@ -44,19 +44,19 @@ ul {
 }
 
 .checkout-button-header {
-	background-color: rgb(99, 166, 62);
+	background-color: #63a63e;
 }
 
 .main-title {
 	font-size: 16px;
 	line-height: 23px;
-	color: rgb(238, 54, 67);
+	color: #ee3643;
 	font-style: italic;
 	font-weight: normal;
 }
 
 .header-contacts a {
-	color: rgb(238, 54, 67);
+	color: #ee3643;
 	font-size: 21px;
 	line-height: 21px;
 	border: 3px solid #ffffff;
@@ -65,7 +65,7 @@ ul {
 .header-contacts p {
 	font-size: 14px;
 	line-height: 24px;
-	color: rgb(50, 66, 92);
+	color: #32425c;
 }
 
 .user-block .personal-interface-button {
@@ -76,11 +76,8 @@ ul {
 }
 
 .main-navigation {
-	background-color: rgb(50, 66, 92);
-}
-
-.site-navigation li {
-	border-bottom: 5px solid rgb(41, 52, 73);
+	background-color: #32425c;
+	box-shadow: inset 0px -5px 0 0 #293449;
 }
 
 .site-navigation a {
@@ -109,7 +106,7 @@ ul {
 
 .main-info-button {
 	color: #ffffff;
-	background-color: rgb(238, 54, 67);
+	background-color: #ee3643;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -132,7 +129,7 @@ ul {
 }
 
 .modal-feedback {
-	border-top: 7px solid rgb(255, 83, 87);
+	border-top: 7px solid #ee3643;
 }
 
 .modal-feedback label {
@@ -145,12 +142,12 @@ ul {
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px
 	line-height: 18px;
-	color: rgb(169, 169, 169);
+	color: #a9a9a9;
 }
 
 .feedback .button {
 	color: #ffffff;
-	background-color: rgb(238, 54, 67);
+	background-color: #ee3643;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -158,7 +155,7 @@ ul {
 }
 
 .main-footer {
-	background-color: rgb(50, 66, 92);
+	background-color: #32425c;
 }
 
 .footer-top {
@@ -176,13 +173,13 @@ ul {
 }
 
 .footer-services-navigation a {
-	color: rgb(241, 199, 126);
+	color: #ffd180;
 }
 
 .footer-bottom {
 	font-size: 16px;
 	line-height: 18px;
-	background-color: rgb(41, 52, 73);
+	background-color: #293449;
 }
 
 .copyright {
@@ -198,13 +195,13 @@ ul {
 }
 
 .footer-bottom-info a {
-	color: rgb(241, 199, 126);
+	color: #ffd180;
 }
 
 /*Страница каталога*/
 
 .working-interface a {
-	color: rgb(50, 66, 92);
+	color: #32425c;
 	font-size: 16px;
 	line-height: 18px;
 	text-decoration: underline;
@@ -228,8 +225,8 @@ ul {
 .page-title {
 	font-size: 30px;
 	line-height: 30px;
-	color: rgb(50, 66, 92);
-	background-color: rgb(242, 246, 248);
+	color: #32425c;
+	background-color: #f2f6f8;
 }
 
 .filter fieldset {
@@ -292,7 +289,7 @@ ul {
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: bold;
-	color: rgb(153, 153, 153);
+	color: #999999;
 }
 
 .price-after {
@@ -300,11 +297,11 @@ ul {
 	line-height: 18px;
 	font-weight: bold;
 	color: #ffffff;
-	background-color: rgb(238, 54, 67);
+	background-color: #ee3643;
 }
 
 .item-add {
-	border-top: 7px solid rgb(238, 54, 67);
+	border-top: 7px solid #ee3643;
 }
 
 .item-add p {
@@ -313,7 +310,7 @@ ul {
 }
 
 .checkout-button-main {
-	background: rgb(238, 54, 67);
+	background: #ee3643;
 	color: #ffffff;
 	font-size: 14px;
 	line-height: 18px;
@@ -337,32 +334,32 @@ ul {
 /*Эффекты при наведении и фокусе*/
 
 .company-logo svg:hover {
-	background-color: rgb(202, 44, 55);
+	background-color: #ca2c37;
 	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
 }
 
 .company-logo svg:active {
+	background-color: #ba2732;
 	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
-  	background-color: #ba2732;
 }
 
 .header-tools:hover,
 .header-tools input:hover {
-	background-color: rgb(33, 42, 58);
+	background-color: #212a3a;
 }
 
 .header-tools a:active {
-	background-color: rgb(22, 29, 41);
-	color: rgb(153, 156, 161);
+	background-color: #161d29;
+	opacity: 0.6;
 }
 
 a.checkout-button-header:hover {
-	background-color: rgb(95, 187, 45);
+	background-color: #5fbb2d;
 }
 
 a.checkout-button-header:active {
-	background-color: rgb(81, 133, 52);
-	color: rgb(162, 190, 147);
+	background-color: #518534;
+	opacity: 0.5;
 }
 
 .header-tools input:focus {
@@ -372,36 +369,36 @@ a.checkout-button-header:active {
 }
 
 .personal-interface-button:hover {
-	color: rgb(238, 54, 67);
+	color: #ee3643;
 }
 
 .personal-interface-button:active {
-	color: rgb(178, 178, 178);
+	color: #b2b2b2;
 }
 
 .working-interface a:hover {
-	color: rgb(238, 54, 67);
+	color: #ee3643;
 }
 
 .user-name-button:active {
-	color: rgb(178, 178, 178);
+	color: #b2b2b2;
 }
 
 .working-interface a:active {
-	color: rgb(178, 178, 178);
+	color: #b2b2b2;
 }
 
 .site-navigation li:hover {
-	background-color: rgb(41, 52, 73);
+	background-color: #293449;
 }
 
 .site-navigation li:active {
-	background-color: rgb(29, 39, 57);
-	border-bottom-color: rgb(29, 39, 57);
+	background-color: #1d2739;
+	border-bottom-color: #1d2739;
 }
 
 .site-navigation a:active {
-	color: rgb(142, 147, 156);
+	opacity: 0.5;
 }
 
 .catalog-item:hover {
@@ -417,7 +414,7 @@ a.checkout-button-header:active {
 }
 
 .buy:hover {
-	background-color: rgb(95, 187, 45);
+	background-color: #5fbb2d;
 }
 
 .buy:active {
