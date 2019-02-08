@@ -46,4 +46,133 @@ a {
 	color: rgb(238, 54, 67);
 	font-size: 21px;
 	line-height: 21px;
+	border: 3px solid #ffffff;
+}
+
+.header-contacts p {
+	font-size: 14px;
+	line-height: 24px;
+	color: rgb(50, 66, 92);
+}
+
+.user-block a {
+	color: #000000;
+	font-size: 21px;
+	line-height: 21px;
+	background-color: #ffffff;
+}
+
+.main-navigation {
+	background-color: rgb(50, 66, 92);
+	border-bottom: 5px solid rgb(41, 52, 73);
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.site-navigation a {
+	color: #ffffff;
+	font-size: 17px;
+	line-height: 17px;
+}
+
+.about-company h2 {
+	text-transform: uppercase;
+}
+
+.about-company ul {
+	list-style: none;
+}
+
+.main-info-button {
+	color: #ffffff;
+	background-color: rgb(238, 54, 67);
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.contacts h2 {
+	text-transform: uppercase;
+}
+
+
+.modal-map img {
+  background-color: rgb(86, 86, 86);
+  box-shadow: 0px 0px 14.72px 1.28px rgba(47, 42, 43, 0.5);
+}
+
+.modal-feedback {
+	border-top: 7px solid rgb(255, 83, 87);
+}
+
+.modal-feedback label {
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.modal-feedback input,
+.modal-feedback textarea {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px
+	line-height: 18px;
+	color: rgb(169, 169, 169);
+}
+
+.feedback .button {
+	color: #ffffff;
+	background-color: rgb(238, 54, 67);
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	border: none;
+}
+
+.main-footer {
+	background-color: rgb(50, 66, 92);
+}
+
+.footer-top {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.main-footer ul {
+	list-style: none;
+}
+
+.footer-site-navigation a {
+	color: #ffffff;
+}
+
+.footer-contacts,
+.footer-contacts a {
+	color: #ffffff;	
+}
+
+.footer-services-navigation a {
+	color: rgb(241, 199, 126);
+}
+
+.footer-bottom {
+	font-size: 16px;
+	line-height: 18px;
+	background-color: rgb(41, 52, 73);
+}
+
+.copyright {
+	color: #ffffff;
+}
+
+.social-btn a {
+	color: #ffffff;
+}
+
+.footer-bottom-info {
+	color: #ffffff;
+}
+
+.footer-bottom-info a {
+	color: rgb(241, 199, 126);
 }
