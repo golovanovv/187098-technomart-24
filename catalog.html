@@ -2,7 +2,11 @@
 <html lang="ru">
   <head>
 	<meta charset="UTF-8">
-	<title>Каталог</title>
+	<title>Компания «ТЕХНОМАРТ»</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 		<header class="main-header">
@@ -11,8 +15,9 @@
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="136.5" height="21.59" viewBox="0 0 136.5 21.59">
   						<defs>
     						<style>
-      							.cls-1 {        
-      							  fill-rule: evenodd;
+      							.cls-1 { 
+      								fill: #ffffff;       
+      							 	fill-rule: evenodd;
       							}
     						</style>
   						</defs>
@@ -26,7 +31,7 @@
 					</form>
 					<a href="#">Закладки: <span>10</span></a>
 					<a href="#">Корзина: <span>10</span></a>
-					<a href="#">Оформить заказ</a>
+					<a href="#" class="checkout-button-header">Оформить заказ</a>
 				</div>
 			</div>
 			<div class="header-middle">
@@ -39,8 +44,8 @@
 				</div>
 				<div class="user-block">
 					<div class="personal-interface">
-						<a href="#">Равшан Джамшутович</a>
-						<a href="#">Выход</a>
+						<a href="#" class="personal-interface-button">Равшан Джамшутович</a>
+						<a href="#" class="personal-interface-button">Выход</a>
 					</div>
 					<div class="working-interface">
 						<a href="#">Мои заказы</a>
@@ -71,7 +76,7 @@
 			<section class="filters">
 				<h2 class="visually-hidden">Фильтр товаров</h2>
 				<!-- Фильтр с бегунком помечен красным, пока не размечаем -->
-				<form action="https://echo.htmlacademy.ru" class="filter" method="post">
+				<form action="https://echo.htmlacademy.ru" class="filter" method="get">
 					<fieldset>
 						<legend>Производители:</legend>
 						<ul>
@@ -124,7 +129,7 @@
 						<div class="catalog-item-image">
 							<img src="img/bosch_bfg_3000.jpg" alt="Перфоратор Bosch BFG 3000" width="218" height="170">
 						</div>
-						<h3>
+						<h3 class="product-name">
 							<a href="#">Перфоратор BOSCH BFG 3000</a>
 						</h3>						
 						<div class="price-before">22500 Р.</div>
@@ -138,7 +143,7 @@
 						<div class="catalog-item-image">
 							<img src="img/bosch_bfg_6000.jpg" alt="Перфоратор Bosch BFG 6000" width="218" height="170">
 						</div>
-						<h3>
+						<h3 class="product-name">
 							<a href="#">Перфоратор BOSCH BFG 6000</a>
 						</h3>
 						<div class="price-before">30500 Р.</div>
@@ -152,7 +157,7 @@
 						<div class="catalog-item-image">
 							<img src="img/bosch_bfg_2000.jpg" alt="Перфоратор Bosch BFG 2000" width="218" height="170">
 						</div>
-						<h3>
+						<h3 class="product-name">
 							<a href="#">Перфоратор BOSCH BFG 2000</a>
 						</h3>
 						<div class="price-before"></div>
@@ -166,7 +171,7 @@
 						<div class="catalog-item-image">
 							<img src="img/bosch_bfg_3000.jpg" alt="Перфоратор Bosch BFG 3000" width="218" height="170">
 						</div>
-						<h3>
+						<h3 class="product-name">
 							<a href="#">Перфоратор BOSCH BFG 3000</a>
 						</h3>
 						<div class="price-before">22500 Р.</div>
@@ -180,7 +185,7 @@
 						<div class="catalog-item-image">
 							<img src="img/bosch_bfg_6000.jpg" alt="Перфоратор Bosch BFG 6000" width="218" height="170">
 						</div>
-						<h3>
+						<h3 class="product-name">
 							<a href="#">Перфоратор BOSCH BFG 6000</a>
 						</h3>
 						<p class="price-before">30500 Р.</p>
@@ -194,12 +199,12 @@
 						<div class="catalog-item-image">
 							<img src="img/bosch_bfg_2000.jpg" alt="Перфоратор Bosch BFG 2000" width="218" height="170">
 						</div>						
-						<h3>
+						<h3 class="product-name">
 							<a href="#">Перфоратор BOSCH BFG 2000</a>
 						</h3>
 						<div class="price-before"></div>
 						<div class="price-after">12500 Р.</div>
-					</li>												
+					</li>									
 					<li class="catalog-item new">
 						<div class="actions">
     						<a href="#" class="buy">Купить</a>
@@ -208,7 +213,7 @@
 						<div class="catalog-item-image">
 							<img src="img/bosch_bfg_3000.jpg" alt="Перфоратор Bosch BFG 3000" width="218" height="170">
 						</div>	
-						<h3>
+						<h3 class="product-name">
 							<a href="#">Перфоратор BOSCH BFG 3000</a>
 						</h3>
 						<div class="price-before">22500 Р.</div>
@@ -222,7 +227,7 @@
 						<div class="catalog-item-image">
 							<img src="img/bosch_bfg_6000.jpg" alt="Перфоратор Bosch BFG 6000" width="218" height="170">
 						</div>	
-						<h3>
+						<h3 class="product-name">
 							<a href="#">Перфоратор BOSCH BFG 6000</a>
 						</h3>
 						<div class="price-before">30500 Р.</div>
@@ -236,7 +241,7 @@
 						<div class="catalog-item-image">
 							<img src="img/bosch_bfg_2000.jpg" alt="Перфоратор Bosch BFG 2000" width="218" height="170">
 						</div>	
-						<h3>
+						<h3 class="product-name">
 							<a href="#">Перфоратор BOSCH BFG 2000</a>
 						</h3>
 						<div class="price-before"></div>
@@ -248,8 +253,8 @@
 			<section class="modal item-add">
 				<h2 class="visually-hidden">Добавление товара в корзину</h2>
 				<p>Товар добавлен в корзину!</p>
-				<a href="#">Оформить заказ</a>
-				<a href="catalog.html">Продолжить покупки</a>
+				<a class="checkout-button-main" href="#">Оформить заказ</a>
+				<a class="continue-shopping" href="catalog.html">Продолжить покупки</a>
 				<button class="modal-close" type="button">Закрыть</button>
 			</section>
 		</main>
@@ -299,10 +304,10 @@
 					<li class="social-btn social-btn-fb"><a href="#">Facebook</a></li>
 					<li class="social-btn social-btn-in"><a href="#">Instagram</a></li>
 				</ul>
-				<p class="feedback">Обратная связь:<br>
+				<p class="footer-bottom-info">Обратная связь:<br>
 					<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
 				</p>
-				<p class="developed">Разработано —<br>
+				<p class="footer-bottom-info">Разработано —<br>
 					<a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">htmlacademy.ru</a>
 				</p>
 			</div>

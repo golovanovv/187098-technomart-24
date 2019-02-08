@@ -11,6 +11,10 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	list-style: none;
+}
+
 .main-header {
 	background-color: rgb(243, 247, 248);
 }
@@ -31,7 +35,7 @@ a {
 	color: #ffffff;
 }
 
-.checkout-button {
+.checkout-button-header {
 	background-color: rgb(99, 166, 62);
 }
 
@@ -40,6 +44,7 @@ a {
 	line-height: 23px;
 	color: rgb(238, 54, 67);
 	font-style: italic;
+	font-weight: normal;
 }
 
 .header-contacts a {
@@ -55,7 +60,7 @@ a {
 	color: rgb(50, 66, 92);
 }
 
-.user-block a {
+.user-block .personal-interface-button {
 	color: #000000;
 	font-size: 21px;
 	line-height: 21px;
@@ -65,10 +70,6 @@ a {
 .main-navigation {
 	background-color: rgb(50, 66, 92);
 	border-bottom: 5px solid rgb(41, 52, 73);
-}
-
-.site-navigation {
-	list-style: none;
 }
 
 .site-navigation a {
@@ -81,9 +82,6 @@ a {
 	text-transform: uppercase;
 }
 
-.about-company ul {
-	list-style: none;
-}
 
 .main-info-button {
 	color: #ffffff;
@@ -138,10 +136,6 @@ a {
 	line-height: 24px;
 }
 
-.main-footer ul {
-	list-style: none;
-}
-
 .footer-site-navigation a {
 	color: #ffffff;
 }
@@ -175,4 +169,124 @@ a {
 
 .footer-bottom-info a {
 	color: rgb(241, 199, 126);
+}
+
+/*Страница каталога*/
+
+.working-interface a {
+	color: rgb(50, 66, 92);
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: underline;
+}
+
+.breadcrumbs a {
+	color: #000000;
+	text-transform: uppercase;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.page-title {
+	font-size: 30px;
+	line-height: 30px;
+	color: rgb(50, 66, 92);
+	background-color: rgb(242, 246, 248);
+}
+
+.filter fieldset {
+	border: none;
+}
+
+.filter legend {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.filter label {
+	font-family: "PT Sans", Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.filter .button {
+	font-family: "PT Sans", Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 18px;
+	background-color: #ffffff;
+	border: none;
+}
+
+.catalog {
+	font-family: "PT Sans", Arial, sans-serif;
+}
+
+.catalog .actions {
+	font-family: "Cuprum", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.actions .buy {
+	color: #ffffff;
+	background-color: rgb(99, 166, 62);
+	border: 3px solid rgb(99, 166, 62);
+	border-bottom: 3px solid rgb(54, 115, 21);
+}
+
+.actions .bookmark {
+	color: rgb(50, 66, 92);
+	border: 3px solid rgb(99, 166, 62);
+}
+
+.product-name a {
+	color: #000000;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.price-before {
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: bold;
+	color: rgb(153, 153, 153);
+}
+
+.price-after {
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: rgb(238, 54, 67);
+}
+
+.item-add {
+	border-top: 7px solid rgb(238, 54, 67);
+}
+
+.item-add p {
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.checkout-button-main {
+	background: rgb(238, 54, 67);
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.continue-shopping {
+	background: #ffffff;
+	color: #000000;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
 }
