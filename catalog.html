@@ -3,8 +3,7 @@
   <head>
 	<meta charset="UTF-8">
 	<title>Компания «ТЕХНОМАРТ»</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -27,10 +26,10 @@
 				<div class="header-tools">
 					<form action="https://echo.htmlacademy.ru" class="search" method="get">
 						<input type="search" name="search" id="search-field" value="" placeholder="Поиск:">
-						<label for="search-field">Поиск по сайту</label>
+						<label class="visually-hidden" for="search-field">Поиск по сайту</label>
 					</form>
-					<a href="#">Закладки: <span>10</span></a>
-					<a href="#">Корзина: <span>10</span></a>
+					<a class="header-tools-item" href="#">Закладки: <span>10</span></a>
+					<a class="header-tools-item" href="#">Корзина: <span>10</span></a>
 					<a href="#" class="checkout-button-header">Оформить заказ</a>
 				</div>
 			</div>
@@ -253,7 +252,7 @@
 			<section class="modal item-add">
 				<h2 class="visually-hidden">Добавление товара в корзину</h2>
 				<p>Товар добавлен в корзину!</p>
-				<a class="checkout-button-main" href="#">Оформить заказ</a>
+				<a class="checkout-button-main main-info-button" href="#">Оформить заказ</a>
 				<a class="continue-shopping" href="catalog.html">Продолжить покупки</a>
 				<button class="modal-close" type="button">Закрыть</button>
 			</section>
