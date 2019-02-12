@@ -41,6 +41,8 @@ a {
 }
 
 .header-tools input {
+	color: #000000;
+
 	background-color: #293449;
 	border: none;
 }
@@ -223,7 +225,16 @@ a {
 }
 
 .visually-hidden {
-	display: none;
+  	position: absolute;
+
+  	width: 1px;
+  	height: 1px;
+  	margin: -1px;
+  	border: 0;
+  	padding: 0;
+
+  	clip: rect(0 0 0 0);
+  	overflow: hidden;
 }
 
 /*Главная страница*/
@@ -284,6 +295,7 @@ a {
 
 .modal-feedback {
 	border-top: 7px solid #ee3643;
+	box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
 }
 
 .modal-feedback label {
@@ -293,10 +305,26 @@ a {
 
 .modal-feedback input,
 .modal-feedback textarea {
-	font-size: 13px
+	font-size: 13px;
 	line-height: 18px;
 	font-family: "PT Sans", Arial, sans-serif;
-	color: #a9a9a9;
+	color: #999999;
+
+	outline: 2px solid #d7dcde;
+}
+
+.modal-feedback input:hover,
+.modal-feedback textarea:hover {
+	outline: 2px solid #b5b5b5;
+}
+
+.modal-feedback input:focus,
+.modal-feedback textarea:focus {
+	outline: 2px solid #ee3643;
+}
+
+.feedback-bottom {
+	background-color: #f4f4f4;
 }
 
 .feedback .button {
@@ -336,6 +364,10 @@ a {
 
 .user-name-button:active {
 	color: #b2b2b2;
+}
+
+.exit-button {
+	font-size: 0;
 }
 
 .breadcrumbs {
@@ -479,6 +511,10 @@ a {
 .item-add p {
 	font-size: 30px;
 	line-height: 30px;
+}
+
+.item-add-bottom {
+	background-color: #f1f1f1;
 }
 
 .checkout-button-main {

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Компания «ТЕХНОМАРТ»</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i%7CPT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -26,10 +26,10 @@
 				<div class="header-tools">
 					<form action="https://echo.htmlacademy.ru" class="search" method="get">
 						<input type="search" name="search" id="search-field" value="" placeholder="Поиск:">
-						<label class="visually-hidden" for="search-field">Поиск по сайту</label>
+						<label for="search-field" aria-label="Поиск по сайту"></label>
 					</form>
-					<a class="header-tools-item" href="#">Закладки: <span>0</span></a>
-					<a class="header-tools-item" href="#">Корзина: <span>0</span></a>
+					<a class="header-tools-item header-bookmarks" href="#">Закладки: <span>0</span></a>
+					<a class="header-tools-item header-basket" href="#">Корзина: <span>0</span></a>
 					<a href="#" class="checkout-button-header">Оформить заказ</a>
 				</div>
 			</div>
@@ -99,7 +99,9 @@
 						<label for="user-text-field">Текст письма:</label>
 						<textarea id="user-text-field" name="user-text" placeholder="В свободной форме"></textarea>
 					</p>
-					<button class="button" type="submit">Отправить</button>
+					<div class="feedback-bottom">
+						<button class="button" type="submit">Отправить</button>
+					</div>
 				</form>
 				<button class="modal-close" type="button">Закрыть</button>
 			</section>
