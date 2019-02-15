@@ -16,11 +16,18 @@ a {
 	text-decoration: none;
 }
 
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
 .main-header {
 	background-color: #f4f7f9;
 }
 
 .header-top {
+	margin-bottom: 54px;
+
 	font-size: 17px;
 	line-height: 18px;
 	color: #ffffff;
@@ -28,8 +35,20 @@ a {
 	background-color: #293449;
 }
 
+.header-container {
+	display: flex;
+}
+
+.company-logo {
+	height: 42px;
+}
+
 .company-logo svg {
+	width: 220px;
+	height: 42px;
+
 	background-color: #ee3643;
+	border-bottom: 5px solid rgba(0, 0, 0, 0.24);
 }
 
 .company-logo svg:hover {
@@ -40,14 +59,25 @@ a {
 	background-color: #ba2732;
 }
 
+.header-tools {
+	display: flex;
+}
+
 .header-tools input {
+	width: 270px;
+	height: 100%;
+
 	color: #000000;
 
 	background-color: #293449;
 	border: none;
 }
 
-.header-top a {
+.header-tools a {
+	width: 150px;
+	min-height: 42px;
+
+	text-align: center;
 	color: #ffffff;
 }
 
@@ -80,12 +110,28 @@ a {
 	opacity: 0.5;
 }
 
+.header-middle {
+	display: flex;
+	margin-bottom: 44px;
+}
+
 .main-title {
+	width: 200px;
+	min-height: 60px;
+	margin: 0;
+	margin-left: 55px;
+
 	font-style: italic;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 23px;
 	color: #ee3643;
+}
+
+.header-contacts {
+	width: 270px;
+	margin-left: 71px;
+	margin-right: 79px;
 }
 
 .header-contacts a {
@@ -97,17 +143,25 @@ a {
 }
 
 .header-contacts p {
+	margin: 0;
+
 	font-size: 14px;
 	line-height: 24px;
 	color: #32425c;
 }
 
 .personal-interface-button {
+	padding: 14px 25px 11px 25px;
+
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
 
 	background-color: #ffffff;
+}
+
+.enter-button {
+	margin-right: 10px;
 }
 
 .personal-interface-button:hover {
@@ -124,6 +178,11 @@ a {
 }
 
 .site-navigation {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+
 	list-style: none;
 }
 
@@ -137,6 +196,9 @@ a {
 }
 
 .site-navigation a {
+	display: block;
+	padding: 22px 31px 26px 31px;
+
 	font-size: 17px;
 	line-height: 17px;
 	color: #ffffff;
@@ -147,20 +209,44 @@ a {
 }
 
 .main-footer {
+	margin-top: 86px;
+
 	background-color: #32425c;
 }
 
 .footer-top {
+	display: flex;
+	flex-wrap: wrap;
+
 	font-size: 18px;
 	line-height: 24px;
 }
 
+.footer-logo svg {
+	height: 63px;
+	margin-right: 128px;
+}
+
 .footer-site-navigation ul {
+	display: flex;
+	justify-content: space-between;
+
 	list-style: none;
 }
 
+.footer-site-navigation li {
+	margin-right: 60px;
+	margin-top: 20px;
+}
+
 .footer-site-navigation a {
+	display: block;
+
 	color: #ffffff;
+}
+
+.footer-site-navigation li:last-child {
+	margin-right: 0;
 }
 
 .footer-site-navigation a:hover,
@@ -175,16 +261,39 @@ a {
 	opacity: 0.5;
 }
 
-.footer-contacts,
+.footer-contacts {
+	margin-top: 32px;
+	margin-right: 51px;
+	margin-bottom: 53px;
+}
+
+.footer-contacts p,
 .footer-contacts a {
 	color: #ffffff;	
 }
 
+.footer-contacts p {
+	margin: 0;
+}
+
 .footer-services-navigation ul {
+	display: flex;
+	margin-top: 30px;
+
 	list-style: none;
 }
 
+.footer-services-navigation li {
+	margin-right: 60px;
+}
+
+.footer-services-navigation li:last-child {
+	margin-right: 0;
+}
+
 .footer-services-navigation a {
+	display: block;
+
 	color: #ffd180;
 }
 
@@ -195,11 +304,23 @@ a {
 	background-color: #293449;
 }
 
+.footer-bottom-container {
+	display: flex;
+}
+
 .copyright {
+	margin-top: 39px;
+	margin-bottom: 35px;
+
 	color: #ffffff;
 }
 
 .accounts {
+	margin-top: 39px;
+	margin-bottom: 35px;
+	margin-left: 162px;
+	margin-right: 119px;
+
 	list-style: none;
 }
 
@@ -208,7 +329,14 @@ a {
 }
 
 .footer-bottom-info {
+	margin-top: 39px;
+	margin-bottom: 35px;
+
 	color: #ffffff;
+}
+
+.footer-feedback {
+	margin-right: 53px;
 }
 
 .footer-bottom-info a {
@@ -239,6 +367,18 @@ a {
 
 /*Главная страница*/
 
+.main-wrapper {
+	display: flex;
+}
+
+.main-wrapper h2 {
+	font-weight: 400;
+}
+
+.about-company {
+	margin-right: 120px;
+}
+
 .about-company h2 {
 	font-size: 30px;
 	line-height: 30px;
@@ -246,12 +386,16 @@ a {
 }
 
 .about-company p {
+	margin-bottom: 30px;
+
 	font-size: 13px;
 	line-height: 24px;
 	font-family: "PT Sans", Arial, sans-serif;
 }
 
 .about-company ul {
+	margin-bottom: 37px;
+
 	list-style: none;
 }
 
@@ -261,12 +405,15 @@ a {
 }
 
 .main-info-button {
+	padding: 14px 40px 12px 40px;
+
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;
 	text-transform: uppercase;
 
 	background-color: #ee3643;
+	border-radius: 3px;
 }
 
 .main-info-button:hover {
@@ -284,8 +431,15 @@ a {
 }
 
 .contacts p {
+	margin-bottom: 36px;
+
+	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
+}
+
+.contacts img {
+	margin-bottom: 40px;
 }
 
 .modal-map img {
@@ -541,5 +695,5 @@ a {
 /*Модальные окна*/
 
 .modal {
-	/*display: none;*/
+	display: none;
 }
