@@ -634,11 +634,13 @@ a {
 
 .catalog-item-image img {
 	width: 218px;
+	margin-bottom: 12px;
 }
 
 .product-name {
 	width: 160px;
 	margin: 0 auto;
+	margin-bottom: 18px;
 }
 
 .price-hidden {
@@ -697,6 +699,8 @@ a {
 }
 
 .price-before {
+	margin-bottom: 13px;
+
 	font-weight: 700;
 	font-size: 17px;
 	line-height: 18px;
@@ -705,6 +709,11 @@ a {
 }
 
 .price-after {
+	width: 70px;
+	margin: 0 auto;
+	margin-bottom: 21px;
+	padding: 13px 38px;
+
 	font-weight: 700;
 	font-size: 17px;
 	line-height: 18px;
