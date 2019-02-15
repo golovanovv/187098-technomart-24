@@ -310,17 +310,20 @@ a {
 	font-family: "PT Sans", Arial, sans-serif;
 	color: #999999;
 
-	outline: 2px solid #d7dcde;
+	border: 2px solid #d7dcde;
+	outline: none;
 }
 
 .modal-feedback input:hover,
 .modal-feedback textarea:hover {
-	outline: 2px solid #b5b5b5;
+	border: 2px solid #b5b5b5;
+	outline: none;
 }
 
 .modal-feedback input:focus,
 .modal-feedback textarea:focus {
-	outline: 2px solid #ee3643;
+	border: 2px solid #ee3643;
+	outline: none;
 }
 
 .feedback-bottom {
