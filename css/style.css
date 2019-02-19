@@ -393,18 +393,21 @@ a {
 	justify-content: space-between;
 }
 
-.main-wrapper h2 {
-	font-weight: 400;
-}
-
 .about-company h2 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 26px;
+
+	font-weight: 400;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
 }
 
 .about-company p {
-	margin-bottom: 30px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 25px;
 
 	font-size: 13px;
 	line-height: 24px;
@@ -448,12 +451,19 @@ a {
 }
 
 .contacts h2 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 26px;
+
+	font-weight: 400;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
 }
 
 .contacts p {
+	margin: 0;
+	padding: 0;
 	margin-bottom: 32px;
 
 	font-family: "PT Sans", Arial, sans-serif;
