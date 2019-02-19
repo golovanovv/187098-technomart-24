@@ -144,7 +144,7 @@ a {
 
 .header-contacts {
 	width: 270px;
-	margin-right: 82px;
+	margin-left: 71px;
 }
 
 .header-contacts a {
@@ -165,6 +165,7 @@ a {
 
 .user-block {
 	margin-top: 5px;
+	margin-left: auto;
 }
 
 .personal-interface-button {
