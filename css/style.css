@@ -42,23 +42,26 @@ a {
 }
 
 .company-logo {
-	height: 42px;
+	width: 200px;
+	height: 30px;
+	padding: 13px 42px 0 42px;
+
+	background-color: #ee3643;
+	box-shadow: 0 5px 0 #b52933;
 }
 
 .company-logo svg {
-	width: 220px;
-	height: 42px;
-
-	background-color: #ee3643;
-	border-bottom: 5px solid rgba(0, 0, 0, 0.24);
+	height: 17.5px;
 }
 
-.company-logo svg:hover {
+.company-logo:hover {
 	background-color: #ca2c37;
+	box-shadow: 0 5px 0 #9a212a;
 }
 
-.company-logo svg:active {
+.company-logo:active {
 	background-color: #ba2732;
+	box-shadow: 0 5px 0 #8e1e26;
 }
 
 .header-tools {
@@ -233,9 +236,15 @@ a {
 	line-height: 24px;
 }
 
-.footer-logo svg {
-	height: 63px;
+.footer-logo {
+	width: 136px;
+	height: 44px;
+	padding-top: 19px;
 	margin-right: 128px;
+}
+
+.footer-logo svg {
+	height: 25px;
 }
 
 .footer-site-navigation ul {
