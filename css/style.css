@@ -251,7 +251,7 @@ a {
 
 .footer-site-navigation ul {
 	display: flex;
-	justify-conыtent: space-between;
+	justify-content: space-between;
 
 	list-style: none;
 }
