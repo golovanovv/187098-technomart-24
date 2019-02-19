@@ -194,7 +194,8 @@ a {
 
 .site-navigation {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
 
@@ -250,7 +251,7 @@ a {
 
 .footer-site-navigation ul {
 	display: flex;
-	justify-content: space-between;
+	justify-conыtent: space-between;
 
 	list-style: none;
 }
@@ -330,6 +331,7 @@ a {
 }
 
 .copyright {
+	width: 228px;
 	margin-top: 39px;
 	margin-bottom: 35px;
 
