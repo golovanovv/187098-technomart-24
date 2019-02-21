@@ -357,7 +357,6 @@ a {
 .footer-bottom .container {
 	display: flex;
 	flex-wrap: wrap;
-	/*justify-content: space-between;*/
 	align-items: center;
 }
 
@@ -722,7 +721,7 @@ a {
 
 .product-name {
 	width: 160px;
-	margin: 0 auto;
+	margin: 0;
 	margin-bottom: 18px;
 }
 
