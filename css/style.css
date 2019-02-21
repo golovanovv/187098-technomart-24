@@ -42,7 +42,7 @@ a {
 }
 
 .company-logo {
-	width: 200px;
+	width: 136px;
 	height: 29px;
 	padding: 13px 42px 0 42px;
 
@@ -66,13 +66,11 @@ a {
 
 .header-tools {
 	display: flex;
-	justify-content: space-between;
 }
 
 .header-tools input {
 	width: 270px;
 	height: 100%;
-	margin-right: 9px;
 
 	color: #000000;
 
@@ -88,8 +86,16 @@ a {
 	color: #ffffff;
 }
 
-.header-tools-active {
+.header-tools .header-tools-active {
 	background-color: #ee3643;
+}
+
+.header-tools .header-tools-active:hover {
+	background-color: #ca2c37;
+}
+
+.header-tools .header-tools-active:active {
+	background-color: #ba2732;
 }
 
 .header-tools input:hover,
