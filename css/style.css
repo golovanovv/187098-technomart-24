@@ -86,16 +86,8 @@ a {
 	color: #ffffff;
 }
 
-.header-tools .header-tools-active {
+.header-tools-active {
 	background-color: #ee3643;
-}
-
-.header-tools .header-tools-active:hover {
-	background-color: #ca2c37;
-}
-
-.header-tools .header-tools-active:active {
-	background-color: #ba2732;
 }
 
 .header-tools input:hover,
@@ -289,10 +281,6 @@ a {
 	color: #ffffff;
 }
 
-.footer-site-navigation li:last-child {
-	margin-right: 0;
-}
-
 .footer-site-navigation a:hover,
 .footer-services-navigation a:hover {
 	text-decoration: underline;
@@ -388,7 +376,8 @@ a {
 	width: 98px;
 }
 
-.footer-bottom-info a {
+.footer-feedback a,
+.footer-developer a {
 	color: #ffd180;
 }
 
@@ -426,7 +415,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	width: 519px;
-	min-height: 379px;
+	min-height: 380px;
 }
 
 .about-company h2 {
@@ -492,7 +481,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	width: 300px;
-	min-height: 379px;
+	min-height: 380px;
 }
 
 .contacts h2 {
