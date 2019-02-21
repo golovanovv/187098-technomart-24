@@ -371,6 +371,7 @@ a {
 .accounts {
 	margin: 0;
 	padding: 0;
+	width: 135px;
 
 	list-style: none;
 }
@@ -379,18 +380,16 @@ a {
 	color: #ffffff;
 }
 
-.footer-info-wrapper {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100px;
-}
-
 .footer-bottom-info {
 	color: #ffffff;
 }
 
 .footer-feedback {
-	margin-right: 53px;
+	width: 137px;
+}
+
+.footer-developer {
+	width: 98px;
 }
 
 .footer-bottom-info a {
