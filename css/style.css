@@ -361,7 +361,7 @@ a {
 }
 
 .copyright {
-	width: 228px;
+	width: 227px;
 	margin-top: 39px;
 	margin-bottom: 35px;
 
@@ -431,12 +431,13 @@ a {
 	display: flex;
 	flex-direction: column;
 	width: 519px;
+	min-height: 379px;
 }
 
 .about-company h2 {
 	margin: 0;
 	padding: 0;
-	margin-bottom: 26px;
+	margin-bottom: 25px;
 
 	font-weight: 400;
 	font-size: 30px;
@@ -447,7 +448,7 @@ a {
 .about-company p {
 	margin: 0;
 	padding: 0;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 
 	font-size: 13px;
 	line-height: 24px;
@@ -463,6 +464,8 @@ a {
 .about-company li {
 	font-size: 18px;
 	line-height: 20px;
+	margin: 20px 0;
+
 }
 
 .main-info-button {
@@ -494,6 +497,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	width: 300px;
+	min-height: 379px;
 }
 
 .contacts h2 {
@@ -511,6 +515,7 @@ a {
 	margin: 0;
 	padding: 0;
 	margin-bottom: 32px;
+	width: 179px;
 
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
@@ -518,7 +523,7 @@ a {
 }
 
 .contacts img {
-	margin-bottom: 40px;
+	margin-bottom: 32px;
 }
 
 .modal-map img {
