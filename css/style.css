@@ -259,6 +259,7 @@ a {
 .footer-site-navigation ul {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-start;
 	width: 560px;
 	margin: 0;
 	padding: 0;
@@ -269,6 +270,10 @@ a {
 .footer-site-navigation li {
 	margin-right: 60px;
 	margin-top: 20px;
+}
+
+.footer-site-navigation li:nth-child(5n) {
+	margin-right: 0;
 }
 
 .footer-site-navigation a {
@@ -305,6 +310,7 @@ a {
 .footer-services-navigation ul {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-start;
 	width: 530px;
 	margin: 0;
 	padding: 0;
@@ -316,7 +322,7 @@ a {
 	margin-right: 60px;
 }
 
-.footer-services-navigation li:last-child {
+.footer-services-navigation li:nth-child(4n) {
 	margin-right: 0;
 }
 
