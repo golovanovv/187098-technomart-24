@@ -28,7 +28,7 @@ a {
 }
 
 .header-top {
-	margin-bottom: 54px;
+	margin-bottom: 45px;
 
 	font-size: 17px;
 	line-height: 18px;
@@ -70,7 +70,9 @@ a {
 
 .header-tools input {
 	width: 270px;
-	height: 100%;
+	min-height: 100%;
+	padding-left: 49px;
+	padding-bottom: 2px;
 
 	color: #000000;
 
@@ -79,7 +81,7 @@ a {
 }
 
 .header-tools a {
-	width: 150px;
+	/*width: 150px;*/
 	padding-top: 12px;
 
 	text-align: center;
@@ -88,6 +90,11 @@ a {
 
 .header-tools-active {
 	background-color: #ee3643;
+}
+
+.header-tools-item {
+	width: 131px;
+	padding-left: 19px;
 }
 
 .header-tools input:hover,
@@ -107,6 +114,8 @@ a {
 }
 
 .checkout-button-header {
+	width: 150px;
+
 	background-color: #63a63e;
 }
 
@@ -120,7 +129,7 @@ a {
 }
 
 .header-middle {
-	margin-bottom: 40px;
+	margin-bottom: 39px;
 }
 
 .header-middle .container {
@@ -131,7 +140,7 @@ a {
 	width: 203px;
 	margin: 0;
 	margin-left: 52px;
-	margin-right: 78px;
+	padding-top: 4px;
 
 	font-style: italic;
 	font-weight: 400;
@@ -143,9 +152,15 @@ a {
 .header-contacts {
 	width: 270px;
 	margin-left: 71px;
+	padding-left: 4px;
+	padding-top: 4px;
 }
 
 .header-contacts a {
+	display: block;
+	padding-top: 7px;
+	padding-left: 61px;
+
 	font-size: 21px;
 	line-height: 21px;
 	color: #ee3643;
@@ -155,6 +170,7 @@ a {
 
 .header-contacts p {
 	margin: 0;
+	padding-top: 12px;
 
 	font-size: 14px;
 	line-height: 24px;
@@ -164,20 +180,18 @@ a {
 .user-block {
 	display: flex;
 	align-items: flex-start;
-	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 290px;
 	margin-left: auto;
 }
 
 .personal-interface-button {
-	padding: 12px 25px;
+	padding-top: 14px;
+	padding-bottom: 11px;
 
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
-
-	background-color: #ffffff;
 }
 
 .personal-interface-button:hover {
@@ -189,7 +203,15 @@ a {
 }
 
 .enter-button {
-	padding-left: 48px;
+	padding-left: 47px;
+	padding-right: 24px;
+	margin-left: 9px;
+	margin-right: 12px;
+}
+
+.sign-up-button {
+	padding-left: 24px;
+	padding-right: 24px;
 }
 
 .main-navigation {
@@ -199,8 +221,8 @@ a {
 
 .site-navigation {
 	display: flex;
-	justify-content: flex-start;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	margin: 0;
 	padding: 0;
 
@@ -230,7 +252,7 @@ a {
 }
 
 .main-footer {
-	margin-top: 86px;
+	margin-top: 77px;
 
 	background-color: #32425c;
 }
@@ -432,15 +454,22 @@ a {
 .about-company p {
 	margin: 0;
 	padding: 0;
-	margin-bottom: 15px;
 
 	font-size: 13px;
 	line-height: 24px;
 	font-family: "PT Sans", Arial, sans-serif;
 }
 
+.about-company .delivery-info {
+	margin-top: 24px;
+	margin-bottom: 1px;
+}
+
 .about-company ul {
-	margin-bottom: 37px;
+	margin: 0;
+	padding: 0;
+	padding-left: 37px;
+	margin-bottom: 17px;
 
 	list-style: none;
 }
