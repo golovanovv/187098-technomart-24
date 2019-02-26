@@ -479,20 +479,46 @@ a {
 }
 
 .accounts {
+	display: flex;
+
 	margin: 0;
 	padding: 0;
-	width: 135px;
+	margin-left: auto;
+	margin-right: 117px;
 
 	list-style: none;
 }
 
 .social-btn a {
-	color: inherit;
+	display: block;
+	width: 42px;
+	height: 42px;
+	margin-right: 4px;
+
+	background-repeat: no-repeat;
+	background-color: #212a3a;
+	background-position: 50% 50%;
+	border-radius: 50%;
+}
+
+.social-btn a:hover {
+	background-color: #ee3643;
+}
+
+.social-btn-vk a {
+	background-image: url(../img/icon-vk.svg);
+}
+
+.social-btn-fb a {
+	background-image: url(../img/icon-fb.svg);
+}
+
+.social-btn-in a {
+	background-image: url(../img/icon-insta.svg);
 }
 
 .footer-feedback {
 	width: 137px;
-	margin-left: auto;
 	margin-right: 53px;
 }
 
