@@ -578,10 +578,24 @@ a {
 }
 
 .about-company li {
+	position: relative;
+
 	font-size: 18px;
 	line-height: 20px;
 	margin: 20px 0;
+}
 
+.about-company li:before {
+	content: "";
+
+	position: absolute;
+	top: 10px;
+	left: -38px;
+
+	width: 25px;
+	height: 2px;
+
+	background-color: #ee3643;
 }
 
 .main-info-button {
