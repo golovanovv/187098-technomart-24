@@ -77,14 +77,13 @@ a {
 	color: #000000;
 
 	background-color: #293449;
-	background-image: url(../img/icon-search.svg);
+	background-image: url(../img/icon-search.png);
 	background-repeat: no-repeat;
 	background-position: 17px 12px;
 	border: none;
 }
 
 .header-tools a {
-	/*width: 150px;*/
 	padding-top: 12px;
 
 	text-align: center;
@@ -105,8 +104,13 @@ a {
 	background-color: #212a3a;
 }
 
+.header-tools input:hover {
+	background-image: url(../img/icon-search-hover.png);
+}
+
 .header-tools input:focus {
 	background-color: #ffffff;
+	background-image: url(../img/icon-search-focus.png);
 	outline: none;
 	border: none;
 }
@@ -130,6 +134,55 @@ a {
 	background-color: #518534;
 	opacity: 0.5;
 }
+
+.header-bookmarks {
+	position: relative;
+}
+
+.header-bookmarks:before {
+	content: "";
+
+	position: absolute;
+	top: 12px;
+	left: 17px;
+
+	width: 14px;
+	height: 16px;
+
+	background-image: url(../img/icon-bookmark.png);
+	background-repeat: no-repeat;
+
+	opacity: 0.3;
+}
+
+.header-bookmarks:hover:before {
+	opacity: 1;
+}
+
+.header-basket {
+	position: relative;
+}
+
+.header-basket:before {
+	content: "";
+
+	position: absolute;
+	top: 12px;
+	left: 17px;
+
+	width: 15px;
+	height: 15px;
+
+	background-image: url(../img/cart-icon.png);
+	background-repeat: no-repeat;
+
+	opacity: 0.3;
+}
+
+.header-basket:hover:before {
+	opacity: 1;
+}
+
 
 .header-middle {
 	margin-bottom: 39px;
@@ -160,6 +213,8 @@ a {
 }
 
 .header-contacts a {
+	position: relative;
+
 	display: block;
 	padding-top: 7px;
 	padding-left: 61px;
@@ -169,6 +224,19 @@ a {
 	color: #ee3643;
 
 	border: 3px solid #ffffff;
+}
+
+.header-contacts a:before {
+	content: "";
+
+	position: absolute;
+	left: 2px;
+
+	width: 19px;
+	height: 19px;
+
+	background-image: url(../img/icon-phone.png);
+	background-repeat: no-repeat;
 }
 
 .header-contacts p {
@@ -206,10 +274,30 @@ a {
 }
 
 .enter-button {
+	position: relative;
+
 	padding-left: 47px;
 	padding-right: 24px;
 	margin-left: 9px;
 	margin-right: 12px;
+}
+
+.enter-button:before {
+	content: "";
+
+	position: absolute;
+	top: 15px;
+	left: 14px;
+
+	width: 20px;
+	height: 17px;
+
+	background-image: url(../img/icon-login.png);
+	background-repeat: no-repeat;
+}
+
+.enter-button:hover:before {
+	background-image: url(../img/icon-login-hover.png);
 }
 
 .sign-up-button {
