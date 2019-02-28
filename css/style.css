@@ -300,6 +300,10 @@ a {
 	background-image: url(../img/icon-login-hover.png);
 }
 
+.enter-button:active:before {
+	background-image: url(../img/icon-login.png);
+}
+
 .sign-up-button {
 	padding-left: 24px;
 	padding-right: 24px;
@@ -799,6 +803,10 @@ a {
 	background-image: url(../img/icon-user-hover.svg);
 }
 
+.user-name-button:active:before {
+	background-image: url(../img/icon-user.svg);
+}
+
 .user-name-button:after {
 	content: "";
 
@@ -817,6 +825,10 @@ a {
 	background-image: url(../img/icon-logout-hover.svg);
 }
 
+.user-name-button:active:after {
+	background-image: url(../img/icon-logout.svg);
+}
+
 .user-name-button:active {
 	color: #b2b2b2;
 }
@@ -826,9 +838,26 @@ a {
 }
 
 .breadcrumbs {
+	position: relative;
+
 	display: flex;
+	padding: 0;
+	margin: 0;
+	margin-top: 17px;
 
 	list-style: none;
+}
+
+.breadcrumbs .index-icon {
+	content: "";
+
+	position: absolute;
+	top: 6px;
+
+	width: 14px;
+	height: 12px;
+
+	background-image: url(../img/icon-home.svg);
 }
 
 .breadcrumbs li {
