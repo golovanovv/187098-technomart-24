@@ -744,7 +744,14 @@ a {
 
 /*Страница каталога*/
 
+.working-interface {
+	padding-left: 8px;
+	margin-top: 7px;
+}
+
 .working-interface a {
+	margin-right: 28px;
+
 	font-size: 16px;
 	line-height: 18px;
 	color: #32425c;
@@ -759,12 +766,55 @@ a {
 	color: #b2b2b2;
 }
 
+.personal-interface {
+	margin-top: 13px;
+	padding-left: 37px;
+}
+
 .user-name-button {
+	position: relative;
+
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
 
 	background-color: #ffffff;
+}
+
+.user-name-button:before {
+	content: "";
+
+	position: absolute;
+	top: 3px;
+	left: -33px;
+
+	width: 20px;
+	height: 18px;
+
+	background-image: url(../img/icon-user.svg);
+	background-repeat: no-repeat;
+}
+
+.user-name-button:hover:before {
+	background-image: url(../img/icon-user-hover.svg);
+}
+
+.user-name-button:after {
+	content: "";
+
+	position: absolute;
+	top: 4px;
+	left: 222px;
+
+	width: 20px;
+	height: 18px;
+
+	background-image: url(../img/icon-logout.svg);
+	background-repeat: no-repeat;
+}
+
+.user-name-button:hover:after {
+	background-image: url(../img/icon-logout-hover.svg);
 }
 
 .user-name-button:active {
