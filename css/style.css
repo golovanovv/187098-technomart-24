@@ -805,12 +805,22 @@ a {
 	background-image: url(../img/icon-user.svg);
 }
 
-.user-name-button:after {
+.user-name-button:active {
+	color: #b2b2b2;
+}
+
+.exit-button {
+	position: relative;
+
+	font-size: 0px;
+}
+
+.exit-button:after {
 	content: "";
 
 	position: absolute;
-	top: 4px;
-	left: 222px;
+	top: -15px;
+	left: 33px;
 
 	width: 20px;
 	height: 18px;
@@ -819,20 +829,12 @@ a {
 	background-repeat: no-repeat;
 }
 
-.user-name-button:hover:after {
+.exit-button:hover:after {
 	background-image: url(../img/icon-logout-hover.svg);
 }
 
-.user-name-button:active:after {
+.exit-button:active:after {
 	background-image: url(../img/icon-logout.svg);
-}
-
-.user-name-button:active {
-	color: #b2b2b2;
-}
-
-.exit-button {
-	font-size: 0;
 }
 
 .breadcrumbs {
