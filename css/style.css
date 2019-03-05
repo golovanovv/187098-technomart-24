@@ -43,7 +43,7 @@ a {
 
 .company-logo {
 	width: 136px;
-	height: 29px;
+	min-height: 29px;
 	padding: 13px 42px 0 42px;
 
 	background-color: #ee3643;
@@ -84,7 +84,9 @@ a {
 }
 
 .header-tools a {
-	padding-top: 12px;
+	display: block;
+	width: 130px;
+	padding: 12px 0px 12px 20px;
 
 	text-align: center;
 	color: #ffffff;
@@ -92,11 +94,6 @@ a {
 
 .header-tools-active {
 	background-color: #ee3643;
-}
-
-.header-tools-item {
-	width: 131px;
-	padding-left: 19px;
 }
 
 .header-tools input:hover,
@@ -120,8 +117,9 @@ a {
 	opacity: 0.6;
 }
 
-.checkout-button-header {
+.header-tools .checkout-button-header {
 	width: 150px;
+	padding-left: 0px;
 
 	background-color: #63a63e;
 }
