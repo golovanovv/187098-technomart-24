@@ -28,7 +28,7 @@ a {
 }
 
 .header-top {
-	margin-bottom: 45px;
+	margin-bottom: 42px;
 
 	font-size: 17px;
 	line-height: 18px;
@@ -194,7 +194,7 @@ a {
 	width: 203px;
 	margin: 0;
 	margin-left: 52px;
-	padding-top: 4px;
+	padding-top: 7px;
 
 	font-style: italic;
 	font-weight: 400;
@@ -205,7 +205,7 @@ a {
 
 .header-contacts {
 	width: 270px;
-	margin-left: 71px;
+	margin-left: 61px;
 	padding-left: 4px;
 	padding-top: 4px;
 }
@@ -214,8 +214,9 @@ a {
 	position: relative;
 
 	display: block;
-	padding-top: 7px;
-	padding-left: 61px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-left: 71px;
 
 	font-size: 21px;
 	line-height: 21px;
@@ -228,7 +229,7 @@ a {
 	content: "";
 
 	position: absolute;
-	left: 2px;
+	left: 12px;
 
 	width: 19px;
 	height: 19px;
@@ -239,7 +240,8 @@ a {
 
 .header-contacts p {
 	margin: 0;
-	padding-top: 12px;
+	padding-top: 4px;
+	padding-left: 10px;
 
 	font-size: 14px;
 	line-height: 24px;
@@ -257,6 +259,9 @@ a {
 .personal-interface-button {
 	padding-top: 14px;
 	padding-bottom: 11px;
+	margin-top: 3px;
+
+	background-color: #ffffff;
 
 	font-size: 21px;
 	line-height: 21px;
