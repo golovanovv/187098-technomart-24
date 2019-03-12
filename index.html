@@ -90,19 +90,21 @@
 			<section class="modal modal-map">
 				<h2 class="visually-hidden">Увеличенная карта</h2>
 				<img src="img/map-zoom.jpg" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург" width="940" height="447">
-				<button class="modal-close" type="button">Закрыть</button>
+				<button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
 			</section>
-			<section class="modal modal-feedback">
+			<section class="modal-feedback">
 				<h2 class="visually-hidden">Обратная связь</h2>
 				<form action="https://echo.htmlacademy.ru" class="feedback" method="post">
-					<p>
-						<label for="user-name-field">Ваше имя:</label>
-						<input type="text" id="user-name-field" name="user-name" value="" placeholder="Имя Фамилия">
-					</p>
-					<p>
-						<label for="user-email-field">Ваш e-mail:</label>
-						<input type="email" id="user-email-field" name="user-email" value="" placeholder="email@example.com">
-					</p>
+					<div class="feedback-columns">
+						<p>
+							<label for="user-name-field">Ваше имя:</label>
+							<input type="text" id="user-name-field" name="user-name" value="" placeholder="Имя Фамилия">
+						</p>
+						<p>
+							<label for="user-email-field">Ваш e-mail:</label>
+							<input type="email" id="user-email-field" name="user-email" value="" placeholder="email@example.com">
+						</p>
+					</div>
 					<p>
 						<label for="user-text-field">Текст письма:</label>
 						<textarea id="user-text-field" name="user-text" placeholder="В свободной форме"></textarea>
@@ -111,7 +113,7 @@
 						<button class="button" type="submit">Отправить</button>
 					</div>
 				</form>
-				<button class="modal-close" type="button">Закрыть</button>
+				<button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
 			</section>
 		</main>
 		<footer class="main-footer">
