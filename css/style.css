@@ -753,7 +753,7 @@ a {
 
 .working-interface {
 	padding-left: 8px;
-	margin-top: 7px;
+	margin-top: 4px;
 }
 
 .working-interface a {
@@ -774,18 +774,22 @@ a {
 }
 
 .personal-interface {
-	margin-top: 13px;
+	margin-top: 4px;
 	padding-left: 37px;
+	padding-top: 13px;
+	padding-bottom: 3px;
+
+	background-color: #ffffff;
 }
 
 .user-name-button {
 	position: relative;
 
+	padding-right: 63px;
+
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
-
-	background-color: #ffffff;
 }
 
 .user-name-button:before {
@@ -825,7 +829,7 @@ a {
 
 	position: absolute;
 	top: -15px;
-	left: 33px;
+	left: -30px;
 
 	width: 20px;
 	height: 18px;
