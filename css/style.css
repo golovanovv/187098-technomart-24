@@ -730,33 +730,44 @@ a {
 	box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
 }
 
-.feedback {
-	width: 450px;
+.feedback-top {
+	width: 460px;
 	margin: 0 auto;
 }
 
 .feedback-columns {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .feedback-columns p {
 	width: 220px;
+	margin: 0;
+	margin-top: 48px;
 }
 
-.feedback-columns input {
+.feedback-top input {
 	width: 220px;
 	padding: 8px 0 8px 16px;
 	box-sizing: border-box;
 }
 
-.modal-feedback label {
+.feedback-top textarea {
+	width: 460px;
+	min-height: 114px;
+	padding: 8px 0 8px 16px;
+	box-sizing: border-box;
+}
+
+.feedback-top label {
 	font-size: 18px;
 	line-height: 18px;
 }
 
-.modal-feedback input,
-.modal-feedback textarea {
+.feedback-top input,
+.feedback-top textarea {
+	margin-top: 8px;
+
 	font-size: 13px;
 	line-height: 18px;
 	font-family: "PT Sans", Arial, sans-serif;
@@ -766,14 +777,14 @@ a {
 	outline: none;
 }
 
-.modal-feedback input:hover,
-.modal-feedback textarea:hover {
+.feedback-top input:hover,
+.feedback-top textarea:hover {
 	border: 2px solid #b5b5b5;
 	outline: none;
 }
 
-.modal-feedback input:focus,
-.modal-feedback textarea:focus {
+.feedback-top input:focus,
+.feedback-top textarea:focus {
 	border: 2px solid #ee3643;
 	outline: none;
 }
@@ -783,6 +794,7 @@ a {
 	padding-bottom: 37px;
 
 	background-color: #f4f4f4;
+	text-align: center;
 }
 
 .feedback .button {
