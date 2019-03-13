@@ -261,10 +261,12 @@
 				<h2 class="visually-hidden">Добавление товара в корзину</h2>
 				<p>Товар добавлен в корзину!</p>
 				<div class="item-add-bottom">
-					<a class="checkout-button-main main-info-button" href="#">Оформить заказ</a>
-					<a class="continue-shopping" href="catalog.html">Продолжить покупки</a>
+					<div class="button-wrapper">
+						<button class="checkout-button-main main-info-button">Оформить заказ</button>
+						<button class="continue-shopping">Продолжить покупки</button>
+					</div>
 				</div>
-				<button class="modal-close" type="button">Закрыть</button>
+				<button class="modal-close close-add" type="button"><span class="visually-hidden">Закрыть</span></button>
 			</section>
 		</main>
 		<footer class="main-footer">
@@ -326,5 +328,6 @@
 				</div>
 			</div>
 		</footer>
+		<script src="js/script.js"></script>
   </body>
 </html>
