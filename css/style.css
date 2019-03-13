@@ -650,6 +650,9 @@ a {
 
 	background-color: #ee3643;
 	border-radius: 3px;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }
 
 .main-info-button:hover {
@@ -809,7 +812,17 @@ a {
 
 	background-color: #ee3643;
 	border: none;
+	outline: none;
+	cursor: pointer;
 	border-radius: 4px;
+}
+
+.feedback .button:hover {
+	background-color: #ca2c37;
+}
+
+.feedback .button:active {
+	background-color: #ba2732;
 }
 
 /*Страница каталога*/
@@ -1172,4 +1185,14 @@ a {
 	display: block;
 	margin-left: -470px;
 	margin-top: -220px;	
+}
+
+.modal-feedback-open {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+
+	display: block;
+	margin-left: -310px;
+	margin-top: -212px;	
 }
