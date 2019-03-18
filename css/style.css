@@ -571,6 +571,144 @@ a {
 
 /*Главная страница*/
 
+.all-services {
+	padding-top: 40px;
+	margin-bottom: 40px;
+
+	color: #ffffff;
+}
+
+.services-top .services-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  	padding: 0;
+	margin: 0;
+
+	list-style: none;
+}
+
+.services-list li {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.services-list li:last-child {
+	margin-right: 0px;
+}
+
+.materials {
+	background-color: #ffbe46;
+}
+
+/*.new-services {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	z-index: 20;
+
+	background-image: url("img/new-flag.png"); 
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}*/
+
+.category-link {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 300px;
+	min-height: 123px;
+
+	color: #ffffff;
+}
+
+.category-link-title {
+	position: relative;
+
+	margin-left: 20px;
+}
+
+.category-link-title h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.clarification {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 135px;
+	min-height: 38px;
+
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tools {
+	background-color: #3bbce3;
+}
+
+.mechanism {
+	background-color: #dd91d9;
+}
+
+.services-bottom {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+}
+
+.services-slider {
+	position: relative;
+
+	width: 620px;
+	min-height: 266px;
+
+	background-color: #32425c;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 620px 266px;
+}
+
+.services-bottom-aside .services-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	margin-left: 20px;
+
+	list-style: none;
+}
+
+.services-bottom-aside li {
+	width: 300px;
+	height: 123px;
+	margin-right: 0;
+	margin-top: 20px;
+}
+
+.discounts {
+	background-color: #8ed78e;
+}
+
+.delivery {
+	background-color: #fec047;
+}
+
 .main-wrapper {
 	display: flex;
 	justify-content: space-between;
