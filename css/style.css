@@ -601,22 +601,6 @@ a {
 	background-color: #ffbe46;
 }
 
-/*.new-services {
-	position: absolute;
-	top: 0;
-	right: 0;
-
-	width: 60px;
-	height: 60px;
-	overflow: hidden;
-	z-index: 20;
-
-	background-image: url("img/new-flag.png"); 
-	background-color: #000000;
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}*/
-
 .category-link {
 	display: flex;
 	flex-direction: column;
@@ -707,6 +691,49 @@ a {
 
 .delivery {
 	background-color: #fec047;
+}
+
+.popular-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 24px 5px 30px;
+  margin-top: 53px;
+  margin-bottom: 20px;
+
+  background-color: #f9f6f1;
+  text-transform: uppercase;
+  color: #32425c;
+  font-weight: 400;
+}
+
+.manufacturers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.manufacturer-card {
+	width: 220px;
+	height: 145px;
+	margin-bottom: 20px;
+
+	border: 1px solid #eaeaea;
+
+	box-sizing: border-box;
+}
+
+.manufacturers-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 220px;
+	height: 145px;
 }
 
 .main-wrapper {
@@ -1180,7 +1207,11 @@ a {
 	border: 1px solid #e5e5e5;
 }
 
-.catalog-item:nth-child(3n) {
+.index-catalog-item:last-child {
+	margin-right: 0;
+}
+
+.inner-catalog-item:nth-child(3n) {
 	margin-right: 0;
 }
 
